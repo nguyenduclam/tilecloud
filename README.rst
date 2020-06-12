@@ -91,8 +91,8 @@ TileCloud depends on some Python modules. It's easiest to install them with
 
 ::
 
-    $ virtualenv .
-    $ . bin/activate
+    $ python3 -m venv .venv
+    $ . .venv/bin/activate
     $ pip install -r requirements.txt
 
 For a quick demo, run
